@@ -1,0 +1,40 @@
+{
+  "name": "prototype3d",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+    "setup": "npm install --legacy-peer-deps",
+    "check": "npx expo install --check",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~55.0.6",
+    "@mediapipe/tasks-vision": "^0.10.32",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "expo": "~55.0.5",
+    "expo-gl": "~55.0.9",
+    "expo-status-bar": "~55.0.4",
+    "react": "^19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "^0.83.2",
+    "react-native-vision-camera": "^4.7.3",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets-core": "^1.6.3",
+    "three": "0.160.0"
+  },
+  "overrides": {
+    "three": "0.160.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "@types/react-dom": "~19.1.7",
+    "babel-plugin-transform-import-meta": "^2.3.3",
+    "babel-preset-expo": "^55.0.10",
+    "typescript": "~5.9.2"
+  }
+}
